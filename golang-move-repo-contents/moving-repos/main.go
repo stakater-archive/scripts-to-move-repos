@@ -13,7 +13,7 @@ import (
 func main() {
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: "368d80faa6b4d52ad65a96e07649713228a723ef"},
+		&oauth2.Token{AccessToken: "XXX"},
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
