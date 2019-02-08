@@ -1,0 +1,4 @@
+package: github.com/stakater/moving-repos
+import:
+- package: github.com/google/go-github/github/v18
+- package: golang.org/x/oauth2
